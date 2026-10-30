@@ -10,7 +10,7 @@ from datetime import datetime, date, timedelta
 # PAGE CONFIG + GLOBAL STYLING
 # ------------------------------------------------------------------
 st.set_page_config(
-    page_title="EventHub — Event Registration System",
+    page_title="Kairos — Event Registration System",
     page_icon="🎟️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -303,7 +303,7 @@ def fmt_inr(x):
 def login_screen():
     st.markdown("""
     <div class="hero">
-        <h1>🎟️ EventHub</h1>
+        <h1>🎟️ Kairos</h1>
         <p>Event Registration & Management System — Streamlit Demo</p>
     </div>
     """, unsafe_allow_html=True)
@@ -384,7 +384,7 @@ def page_home():
     st.markdown(f"""
     <div class="hero">
         <h1>Welcome back, {st.session_state.display_name.split()[0]} 👋</h1>
-        <p>Here's a snapshot of what's happening in EventHub.</p>
+        <p>Here's a snapshot of what's happening in Kairos.</p>
     </div>
     """, unsafe_allow_html=True)
 
